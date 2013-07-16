@@ -11,6 +11,11 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
+
+define(function () {
+
+    var jQuery = require("jquery");
+
 (function($) {
 
 	$.widget("mjs.nestedSortable", $.extend({}, $.ui.sortable.prototype, {
@@ -427,3 +432,5 @@
 
 	$.mjs.nestedSortable.prototype.options = $.extend({}, $.ui.sortable.prototype.options, $.mjs.nestedSortable.prototype.options);
 })(jQuery);
+
+});

@@ -12,7 +12,7 @@
  */
 
 
-define(function () {
+define(["jquery-ui/draggable"], function () {
 
     var jQuery = require("jquery");
 

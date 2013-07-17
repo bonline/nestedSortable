@@ -12,7 +12,7 @@
  */
 
 
-define(["jquery", "jquery.ui.wiget", "jquery-ui/draggable", "jquery-ui/sortable"], function () {
+define(["jquery", "jquery.ui.widget", "jquery-ui/draggable", "jquery-ui/sortable"], function () {
 
     var jQuery = require("jquery");
 
